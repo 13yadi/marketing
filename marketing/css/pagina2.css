@@ -1,0 +1,45 @@
+.contenedor{
+    grid-template-columns: 625px 628px 625px;
+    grid-template-rows: 350px 60px 600px 60px;
+    display: grid;
+    grid-template-areas: 
+    'enc enc enc'
+    'enl enl enl'
+    'mis vis fot'
+    'pie pie pie'
+    ;
+}
+header{
+    background-color: aquamarine;
+    grid-area: enc;
+}
+section{
+    background-color: cornflowerblue;
+    grid-area: enl;
+    text-align: center;
+    align-content: center;
+}
+div{
+    background-color: crimson;
+    grid-area: mis;
+    text-align: center;
+}
+main{
+    background-color: darkturquoise;
+    grid-area: vis;
+}
+aside{
+    background-color: tomato;
+    grid-area: fot;
+    align-content: center;
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+    color: antiquewhite;
+    align-content: center;
+}
+.im{
+    width: 1876px;
+    height: 350px;
+}
