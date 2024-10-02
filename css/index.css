@@ -1,0 +1,48 @@
+.contenedor{
+    grid-template-columns: 625px 628px 625px;
+    grid-template-rows: 350px 60px 600px 60px;
+    display: grid;
+    grid-template-areas: 
+    'enc enc enc'
+    'enl enl enl'
+    'for con info'
+    'pie pie pie'
+    ;
+}
+header{
+    background-color: aquamarine;
+    grid-area: enc;
+}
+section{
+    background-color: cornflowerblue;
+    grid-area: enl;
+    align-content: center;
+}
+div{
+    background-color: darkcyan;
+    grid-area: for;
+    text-align: center;
+}
+main{
+    background-color: aqua;
+    grid-area: con;
+    align-content: center;
+}
+aside{
+    background-color: crimson;
+    grid-area: info;
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+    color: antiquewhite;
+    align-content: center;
+}
+img{
+    width: 430px;
+    height:520px ;
+}
+.im{
+    width: 1876px;
+    height: 350px;
+}
